@@ -18,5 +18,6 @@ int main()
             tab[i][j] = a[j];
         }
     }
+
     delete [] tab;
 }
