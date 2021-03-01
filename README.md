@@ -1,2 +1,2 @@
-Zadania z P2
-Każde jest okraszone odpowiednią nazwą
+#Zadania z P2
+#Każde jest okraszone odpowiednią nazwą
