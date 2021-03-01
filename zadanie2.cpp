@@ -25,4 +25,7 @@ int main()
     wskaznik->tluszcze = 15;
     wskaznik->weglowodany = 40;
     baton->sklad = wskaznik;
+    
+    delete wskaznik;
+    delete baton;
 }
