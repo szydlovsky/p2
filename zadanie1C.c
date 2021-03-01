@@ -1,3 +1,4 @@
+//repo link: https://github.com/szydlovsky/p2.git
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
