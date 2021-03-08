@@ -8,17 +8,11 @@ int main()
     string b = "aBcd";
     for(int i = 0; i < a.length(); i++)
     {
-        if(a[i] >= 'A' && a[i] <= 'Z')
-        {
-            a[i] += 'a' - 'A';
-        }
+        a[i] = tolower(a[i]);
     }
     for(int i = 0; i < b.length(); i++)
     {
-        if(b[i] >= 'A' && b[i] <= 'Z')
-        {
-            b[i] += 'a' - 'A';
-        }
+        b[i] = tolower(b[i]);
     }
     cout << a << " " << b << " " << a.compare(b) << endl;
 
